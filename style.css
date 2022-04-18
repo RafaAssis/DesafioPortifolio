@@ -1,0 +1,126 @@
+:root {
+    --body-bg-color: #22212c;
+    --text-color: #837e9f;
+    --bg-cards: #302f3d;
+    --bg-techs: #cb92b1;
+    font-family: 'Merriweather Sans', sans-serif;
+    @media only screen and (max-device-width: 900px);
+  }
+  
+  
+  #foto {
+    align-items: center;
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: 0.2em solid #00ff00;
+  }
+  #foto1 {
+    align-items: center;
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+  }
+  
+  .perfil {
+    display: inline-block;
+    margin-left: 5em;
+    text-align: center;
+  }
+  .Perfil1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #d1 {
+    margin-left: 3em;
+  }
+  
+  
+  body {
+    background: var(--body-bg-color);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  section {
+    background: var(--bg-cards);
+    color: var(--text-color);
+    position: relative;
+    border-radius: 1em;
+    padding: 2rem;
+    margin-bottom: 2em;
+    display: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  button {
+    border-radius: 2em;
+    border: var(--bg-techs);
+    background: var(--bg-techs);
+    width: 7em;
+    height: 2em;
+  }
+  span {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .tudo {
+    width: 90%;
+    display: flex;
+    /* Possibilita a centralização usando justify-content */
+    justify-content: space-between;
+    /* Deixa os elementos filhos centralizados */
+  }
+  
+  .esquerda {
+    width: 30em;
+    margin-left: 1em;
+  }
+  
+  .direita {
+    max-width: 100%;
+    margin-right: -7em;
+    margin-left: 3em;
+  }
+  
+  .myonix {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .myonixb {
+    margin-left: 2em;
+  }
+  
+  .projetos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    padding: auto;
+  }
+  
+  .vejatudo {
+    padding-left: 10em;
+  }
+  
+  .folder {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .lista li {
+    display: flex;
+    gap: 2rem;
+    margin-right: 3em;
+  }
